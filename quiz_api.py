@@ -45,7 +45,7 @@ async def create_quiz(
         'Тестовое поле': text,
         "Поле с Цифрой": number_field,
         "Поле с датой": date_field,
-        "Поле с датой": file,
+        "Дата": file,
     }
     quiz_dict = quiz_data.__dict__
     fs_data_dict = json.loads(quiz_dict['fs_data'])
